@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\VendingMachine.Application\VendingMachine.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\VendingMachine.Infrastructure\VendingMachine.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\VendingMachine.Persistence\VendingMachine.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Requests\" />
+  </ItemGroup>
+
+</Project>
